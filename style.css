@@ -389,6 +389,10 @@ FEATURES ↓
 }
 
 .feature {
+    width: calc(100% / 3);   
+}
+
+.features {
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
@@ -411,6 +415,11 @@ FEATURES ↓
     padding: 20px;
     border: 1px solid #e5e7eb;
     border-radius: 500px;
+}
+
+.feature__img {
+    width: 24px;
+    height: 24px;
 }
 
 .section__tag {
