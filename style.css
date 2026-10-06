@@ -473,10 +473,8 @@ FEATURES ↓
 
 .feature__row {
     display: flex;
-    align-items: center;;
+    align-items: center;
     padding: 32px 24px;
-    flex-direction: column;
-    text-align: center;
 }
 
 #features .row__narrow {
@@ -1513,6 +1511,21 @@ MOBILE RESPONSIVENESS ↓
     }
     footer {
         padding: 80px 32px;
+    }
+}
+
+@media (max-width: 640px) {
+    .feature__row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .feature__row {
+        padding: 32px 8px;
+        margin: 0 16px;
     }
 }
 
