@@ -363,7 +363,7 @@ header .row {
 }
 
 .header__description {
-    width: 40%;
+    width: 100%;
 }
 
 .header__description--para {
@@ -462,7 +462,7 @@ FEATURES ↓
 }
 
 .feature {
-    width: calc(100% / 3);   
+    width: 100%;   
 }
 
 .features {
@@ -473,8 +473,10 @@ FEATURES ↓
 
 .feature__row {
     display: flex;
-    align-items: flex-start;
+    align-items: center;;
     padding: 32px 24px;
+    flex-direction: column;
+    text-align: center;
 }
 
 #features .row__narrow {
